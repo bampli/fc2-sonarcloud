@@ -26,3 +26,11 @@ func TestTimes(t *testing.T) {
 		t.Error("The result must be 8")
 	}
 }
+func TestSumX(t *testing.T) {
+
+	result := sumX(4, 2)
+
+	if result != 10 {
+		t.Error("The result must be 10")
+	}
+}
